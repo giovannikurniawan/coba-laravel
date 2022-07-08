@@ -1,10 +1,10 @@
-@dd($post);
 @extends('layouts.main')
 
 @section('container')
     <article>
-        <h1>judul</h1>
-        <h3>Author</h3>
+        <h2>{{ $post['title'] }}</h2>
+        <h3>{{ $post['author'] }}</h3>
+        <p>{{ $post['body'] }}</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime deserunt temporibus voluptatem, enim ipsum
             distinctio saepe alias numquam adipisci voluptatibus id provident corrupti error itaque delectus explicabo
             voluptas aspernatur aperiam?</p>
