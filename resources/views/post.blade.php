@@ -10,5 +10,5 @@
             voluptas aspernatur aperiam?</p>
     </article>
 
-    <a href="/blog">Back</a>
+    <a href="/posts">Back to Post</a>
 @endsection
